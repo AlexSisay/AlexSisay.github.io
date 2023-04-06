@@ -1,0 +1,130 @@
+
+body{
+	font-family:"courier";
+	cursor:default;
+	color:black;
+}
+
+.name{
+	font-size: 20pt;
+	margin: 2%;
+	
+	padding-bottom: 3%;
+	display: block;
+}
+
+a{
+	color: orange;
+	text-decoration: none;
+}
+
+a:hover{
+	color: yellow;
+	text-decoration: none;
+}
+.main_page{
+	margin:3%;
+	text-align: center;
+
+}
+.subtitle{
+	font-size: 0.5em;
+	color: orange;
+}	
+
+.category{
+	padding: 0.5%;
+}
+.category:hover{
+	color:gray;
+}
+
+.general-information-paragraph{
+	//margin:auto;
+	font-size: 0.8em	;
+	text-align: justify-all;
+    text-justify: inter-word;
+    //width:80%;	
+}
+
+.pdf-link{
+	color:orange;
+	text-decoration: none;
+}
+
+.pdf-link:hover{
+	color:yellow;
+}
+	
+.profile-pic{
+	width: 20%;
+	border-radius:50%;
+}
+
+#back-pane{
+	color: gray;
+	font-style: italic; 
+}
+
+.back-button{
+	float:center;
+	padding:2%;
+	width:10%;
+	height: 10%;
+
+}
+
+.clock{
+	font-size: 0.3em;
+	float:right;
+	color:gray;
+}
+
+.main-banner{
+	color: black;
+}
+
+.main-banner:hover{
+	color:gray;
+	text-decoration: none;
+}
+
+.social-network-link{
+	display:none;
+	color:orange;
+}
+
+.social-network-link:after{
+	content:"|";
+}
+
+.general-information-paragraph h2{
+	font-size: 2em;
+	text-align: center;
+}
+
+.row{
+	text-align:center;
+}
+.project-displaypic{
+	border-radius: 50%;
+	width:80%; 
+	max-height: 100%;height: 80%;
+	
+}
+
+#selected-projects{
+	overflow:hidden;
+}
+
+#more-reports-container{
+	overflow:hidden;
+}
+
+#more-reports{
+	color:orange;
+}
+
+#more-reports:hover{
+	color:yellow;
+}
